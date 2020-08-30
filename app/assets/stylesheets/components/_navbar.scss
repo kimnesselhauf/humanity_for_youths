@@ -10,3 +10,64 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar{
+  opacity: 80%;
+  background: #008D8C;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.icon{
+  display:flex;
+}
+
+.icon-pic img{
+    // height:40px;
+    width: 40px;
+}
+
+.logo-btn{
+  background-color: #008D8C;
+  border: 0px;
+  p{
+    padding-top:5px;
+    color: pink;
+    font-size: 20px;
+    }
+}
+
+.navbar-right{
+  display: flex;
+}
+
+.nav-item{
+  a{
+    color: white;
+    font-size:17px;
+  }
+  padding-top:5px;
+  margin: 20px;
+}
+
+.donate-btn{
+  background-color: yellow;
+  border-radius: 40px;
+  border-color: yellow;
+  border: 0px;
+  margin: 10px;
+  a{
+    color: black;
+    font-size: 17px;
+  }
+}
+
+.donate-btn:hover{
+  background-color: orange;
+}
